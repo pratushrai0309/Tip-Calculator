@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel = "shortcut icon" typr = "img/png" href = "img/calculator (1).png">
+    <link rel="stylesheet" href = "Stylesheet.css"> 
+</head>
+<body id = "body">
+    <!--Logo-->
+    <h1 id = "logo">Tip Calculator</h1>
+
+    <!--Container-->
+  <div id = "container">
+
+    <!--Enter Total Number-->
+      <h1 id = "total">Enter the total amount:</h1>
+   <!--Total Amount Value-->
+      <input type = "number" id = "totalAmt" align="center" placeholder="Total Bill">
+
+      <!--Service Quality-->
+      <h1 id = "serviceQual1">How Was Your Service</h1>
+
+      <!--Option For Service Quality-->
+      <select id="serviceQual">
+        <option disabled selected value="0">-- Choose an Option --</option>
+        <option value="0.3">30&#37; &#45; Outstanding</option>
+        <option value="0.2">20&#37; &#45; Good</option>
+        <option value="0.15">15&#37; &#45; It was OK</option>
+        <option value="0.1">10&#37; &#45; Bad</option>
+        <option value="0.05">5&#37; &#45; Terrible</option>
+    </select>
+
+    <!--No Of People-->
+    <h1 id = "people">No. Of People Sharing The Bill</h1>
+
+    <!--No Of People Value-->
+    <input type="number" id = "no" align = "center" placeholder = "No. of people">
+
+    <!--Calculate Button-->
+    <button id = "calc">Caclulate</button>
+
+  <!--Reset-->
+  <button id = "resetBtn">Reset</button>
+    
+    <!--Display The Tip-->
+    <div>
+      <h1 id = "tip">Tip Amount</h1>
+      <h1 id = "result"></h1>
+    </div>
+    <h1 id = "result"></h1>
+
+    <script src = "app.js"></script>
+  </div>
+</body>
+</html>

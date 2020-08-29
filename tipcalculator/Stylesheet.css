@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap');
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: #706D6B;
+}
+#logo{
+    font-family: 'Pacifico';
+    text-align: center;
+    font-size: 64px;
+    color: #FFB5B5;
+}
+#container{
+    width: 400px;
+    height: 500px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    margin: 0 auto;
+    background-color: #E7D8D6;
+}
+#total{
+    font-family: "Fredoka One";
+    text-align: center;
+}
+#totalAmt{
+    align-self: center;
+    margin: 10px 110px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+#people{
+    font-family: "Fredoka One";
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;;
+}
+#no{
+    align-self: center;
+    margin: 10px 110px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+#serviceQual1{
+    font-family: "Fredoka One";
+    text-align: center;
+}
+#serviceQual {
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+#calc{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: #AF2614;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: solid #000000 1px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fredoka One"
+}
+#resetBtn{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: #AF2614;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: solid #000000 1px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fredoka One";
+    display: none;
+}
+#calc:hover{
+    background-color: #8D0E0E;
+}
+#resetBtn:hover{
+    background-color: #8D0E0E;
+}
+#result{
+    font-family: "Fredoka One";
+    font-size: 25px;
+    text-align: center;
+}
+#tip{
+    display: none;
+    font-family: "Fredoka One";
+    font-size: 25px;
+    text-align: center;
+}
